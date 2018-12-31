@@ -1,0 +1,234 @@
+    * {
+        font-family: 'Rubik', sans-serif;
+    }
+
+    body {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 300;
+    }
+
+    h1 {
+        font-family: 'Rubik', sans-serif;
+    }
+
+    header {
+        padding: 1b 0px 0;
+    }
+
+    header .row,
+    footer .row {
+        display: flex;
+        align-items: center;
+    }
+
+    header h1 {
+        font-weight: 700;
+        margin: 0;
+    }
+
+    header h1:hover {
+        text-decoration: none;
+        color: rgba(51, 153, 51, 0.7);
+    }
+
+    header nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    header a {
+        padding: 0 10px;
+        margin: 0;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    header a:hover {
+        text-decoration: none;
+        color: rgba(51, 153, 51, 0.7);
+    }
+
+    .jumbotron {
+        display: flex;
+        align-items: center;
+        background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg");
+        background-size: cover;
+        color: #ffffff;
+        height: 300px;
+        text-shadow: 0.25px 0.25px 0.25px #000000;
+    }
+
+    .jumbotron2 {
+        background-image: url(find-classes.jpg);
+        background-size: cover;
+        color: #ffffff;
+        height: 300px;
+        text-shadow: 0.25px 0.25px 0.25px #000000;
+        display: flex;
+        align-items: center;
+    }
+
+    .jumbotron h2 {
+        font-size: 60px;
+        font-weight: 700;
+        margin: 0;
+        color: #F4A460;
+    }
+
+    .jumbotron h3 {
+        margin: 0 0 20px;
+        color: #F4A460;
+    }
+
+    .border-fancy {
+        border: 1px dashed #256c98;
+        box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ddd, 0 0 0 10px #fff, 0 0 2px 10px #256c98;
+    }
+
+    .marg {
+        margin-top: 10px;
+    }
+
+    section .row img {
+        margin: 0 0 30px;
+        width: 100%;
+    }
+
+    .col-sm-6 {
+        margin: 0 0 30px;
+    }
+
+    .btn.btn-primary {
+        border-radius: 2px;
+        border: 0px;
+        color: #fbd1d5;
+        text-shadow: none;
+        background-color: #ffffff;
+    }
+
+    .btn.btn-primary:hover {
+        color: #ffffff;
+        background-color: #fbd1d5;
+    }
+
+    .btn-secondary {
+        background-color: #E8DFE0;
+        color: #ffffff;
+        margin: 0 0 30px;
+    }
+
+    .button-custom {
+        background-color: #339933;
+        /* Black. can be changed */
+        border: none;
+        color: white;
+        /* font color can be changed */
+        padding: 0 0 0 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        /* border-radius: 5px; */
+        margin: 1em;
+    }
+
+    .button-custom::after,
+    .button-custom:visited::after {
+        background-color: #4682B4;
+        /* background color can be changed */
+        border-left: solid 5px #fff;
+        /*color: #ffffff !important; */
+        line-height: 45px;
+    }
+
+    .button-custom::after {
+        position: relative;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        display: inline-block;
+        content: "\e080";
+        font-family: 'Glyphicons Halflings';
+        font-size: 1.1rem;
+        padding: 0;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        text-align: center;
+        white-space: nowrap;
+        width: 45px;
+        /* height: auto; */
+    }
+
+    input[type=text] {
+        width: 40%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: 2px solid #339933;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=password] {
+        width: 40%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: 2px solid #339933;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=email] {
+        width: 40%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: 2px solid #339933;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=text]:focus {
+        border: 3px solid #636466;
+    }
+
+    input[type=email]:focus {
+        border: 3px solid #636466;
+    }
+
+    input[type=password]:focus {
+        border: 3px solid #636466;
+    }
+
+    footer {
+        margin-top: 10px;
+        background: #256c98;
+        font-size: 12px;
+        padding: 20px 0;
+        position: relative;
+        bottom: 0;
+    }
+
+    footer .col-sm-4 {
+        display: block;
+        /*justify-content: space-around;*/
+    }
+
+    footer ul {
+        list-style: none;
+    }
+
+    footer li img {
+        width: 32px;
+        height: 32px;
+        margin-bottom: 5px;
+    }
+
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+
+    /*New Code*/
+
+    header .nav-login a {
+        float: left;
+    }
